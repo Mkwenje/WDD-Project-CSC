@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CSC GAME</title>
+      <link rel="stylesheet" href="style.css">
+	<script>
+		function game(){
+			//set up variables
+			var uGuess;
+			var msge;
+			var winnerScores = [0,0]; //index 0 = comp, index 1 = user
+
+			//play game 3 times using for loop
+			for(i = 1; i < 4; i++){
+				//set up random number - cGuess
+				//Math.random returns a random number between 0-1 so we multiply by 3. Math.floor rounds down to nearest whole number
+				var cGuess = Math.floor(Math.random()*3)+1;
+				alert("AI Random Direction" + cGuess); //testing line
+				//get user guesses
+				uGuess = parseInt(prompt("Enter 1 for UP, 2 for LEFT, 3 for RIGHT, 4 for Down", ""));
+
+
+      if(cGuess === 1){//ai guess is up Tadiwa
+  if(uGuess ===1){
+    msge="The AI Wins";
+    //update ai score Tadiwa
+    winnerScores[0]++;
+  }else if(uGuess === 2){
+    msge = "You Win";
+    //update user score
+    winnerScores[1]++;
+  }else if(uGuess === 3){
+    msge = "You Win";
+    //update user score
+    winnerScores[1]++;
+  }else if(uGuess === 4){
+    msge = "You Win";
+    //update user score Tadiwa
+    winnerScores[1]++;
+  }
+}else if(cGuess === 2){//if ai guess is left Tadiwa
+  if(uGuess ===1){
+    msge="You Win";
+    //update user score Tadiwa
+    winnerScores[1]++;
+  }else if(uGuess === 2){
+    msge = "The AI Wins";
+    //update ai score Tadiwa
+    winnerScores[0]++;
+  }else if(uGuess === 3){
+    msge = "You Win";
+    //update user score Tadiwa
+    winnerScores[1]++;
+  }else if(uGuess === 4){
+    msge = "You Win";
+    //update ai score Tadiwa
+    winnerScores[1]++;
+  }
+}else if(cGuess === 3){//if ai guess is Right Tadiwa
+  if(uGuess ===1){
+    msge="You Win";
+    //update user score Tadiwa
+    winnerScores[1]++;
+  }else if(uGuess === 2){
+    msge = "You Win";
+    //update ai score Tadiwa
+    winnerScores[1]++;
+  }else if(uGuess === 3){
+    msge = "AI Wins";
+    //update user score Tadiwa
+    winnerScores[0]++;
+  }else if(uGuess === 4){
+    msge = "You Win";
+    //update ai score Tadiwa
+    winnerScores[1]++;
+  }
+}else if(cGuess === 4){//if ai guess is Donn Tadiwa
+  if(uGuess ===1){
+    msge="You Win";
+    //update user score Tadiwa
+    winnerScores[1]++;
+  }else if(uGuess === 2){
+    msge = "You Win";
+    //update ai score Tadiwa
+    winnerScores[1]++;
+  }else if(uGuess === 3){
+    msge = "You Win";
+    //update user score Tadiwa
+    winnerScores[1]++;
+  }else if(uGuess === 4){
+    msge = "AI Wins";
+    //update ai score Tadiwa
+    winnerScores[0]++;
+  }
+}
+alert(msge);
+}
+
+
+//give the over all scores outside the for loop
+document.getElementById("userInfo").innerHTML = "User Score " +winnerScores[1]+ " AI Score " +winnerScores[0];
+
+		} //end function
+	</script>
+  </head>
+  <body id="Gamebi">
+	<h1 id="DG"> Direction Game &#169; </h1>
+  <div id="GameInfo">
+  <p>How the GAME Works: You chose a direction 1(UP),2(LEFT),3(RIGHT),4(DOWN). If you chose the same direction as the AI, the AI scores a Point, if not You score a Point. Simple, Now Click Play!!!!  </p>
+</div>
+	<input id="GamePB" type="button" value="PLAY" onclick="game()">
+	<div id="userInfo"></div>
+
+
+  <footer class="container-fluid text-center" id="footerG">
+
+    <p id="Gf1">THANKS FOR PLAYING</P>
+  </footer>
+
+
+  </body>
+</html>

@@ -1,0 +1,665 @@
+/* font for the whole body Tadiwa*/
+*{
+  font-family: 'Spectral', serif;
+}
+/* font for the footer*/
+footer{
+  font-family: 'Playfair Display', serif;
+}
+
+/* Height of navigation bar at the top of the page Tadiwa */
+  .navbar {
+    height: 100px;
+  }
+#dark{
+  background-color: #191919;
+}
+/* first logo positioning Tadiwa*/
+#img1{
+  position: relative;
+  bottom: 17px;
+  right: 16px;
+}
+  /* Creats space between the background image and the futher donation section, near the bottom of the page Tadiwa */
+  .row.content {height: 900px}
+
+
+
+/* Controls the opening statements font size and boldness Tadiwa */
+  #top1{
+    font-size: 25px;
+    font-weight: 600;
+    color: black;
+  }
+
+  #h3{
+    color: black;
+  }
+
+/* makes the Donate link white and its box background color red as to highlight its importance Tadiwa */
+#donate{
+  border-radius: 5px;
+  background-color: red;
+  font-weight: 600;
+  color: white;
+}
+
+/* Controls the color and boldness of the first Heading on the webpage just before the opening statements Tadiwa */
+div h1{
+  color: #FF8431;
+  font-weight: 600;
+}
+
+/* A div tag called bI that has a background image of  a homeless man in the middle of the page Tadiwa */
+.bI{
+  background-image: url(https://images.unsplash.com/photo-1518398046578-8cca57782e17?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+  height: 650px;
+}
+
+/* The inner box in side the div tag bI, on top of the background image of a message about helping old homeless people Tadiwa */
+.bI-inner-2{
+  border-radius: 5px;
+  position: relative;
+  background-color: white;
+  text-align: left;
+  padding: 15px;
+  top: 100px;
+  left: 500px;
+  margin: auto;
+  box-sizing: border-box;
+ width: 450px;
+ height: 300px;
+
+
+}
+/* Controls the color of all span tags with the class span1 in the html file Tadiwa */
+.span1{
+  color: #FF8431;
+}
+
+/* The second donate link in a border box that changes colors on hover located in the inner box of div tag bI Tadiwa*/
+.donate2{
+  font-weight: 700;
+  border-radius: 5px;
+  border: 1px solid  #FF8431;
+  right: 100px;
+  text-align:center;
+  margin: auto;
+  font-size: 30px;
+  box-sizing: border-box;
+ width: 200px;
+ height: 40px;
+}
+#donate1{
+  color:  #FF8431;
+  letter-spacing: 5px;
+
+}
+
+
+/* The container with the background color of pink that holds futher donation links and information Tadiwa*/
+.container1{
+ background-color: #FFAAD5;
+ position: relative;
+ bottom: 200px
+ box-sizing: border-box;
+width: 1903px;
+height: 250px;
+
+}
+
+/* Another donate link but numbers this time in a box, in the pink container Tadiwa */
+.donate3{
+  border-radius: 5px;
+  position: relative;
+  right: 290px;
+  top: 105px;
+  background-color:#191919;
+  text-align:center;
+  margin: auto;
+  font-size: 25px;
+  box-sizing: border-box;
+ width: 200px;
+ height: 40px;
+ padding: 4px;
+}
+.color1{
+  color:  #FF8431;
+}
+
+/* Heading 4 changing the font in the pink container Tadiwa */
+div h4{
+  position: absolute;
+  font-size: 32px;
+  font-weight: 700;
+  top: 96px;
+  left: 300px;
+}
+
+/* Controls the paragraph text that is the child of the class donate 4 Tadiwa */
+.donate4>p{
+  position: absolute;
+  font-size: 20px;
+  left: 800px;
+  width: 400px;
+  top: 95px;
+  font-weight: 500;
+}
+/* Controls the color of all span tags with the class span1 in the html file Tadiwa */
+.donate4>a{
+  position: absolute;
+  left: 1280px;
+  top: 95px;
+  background-color: red;
+  font-weight: 700;
+  border-radius: 5px;
+  border: 1px solid  #FF8431;
+  text-align:center;
+  margin: auto;
+  font-size: 30px;
+  box-sizing: border-box;
+ width: 200px;
+ height: 40px;
+}
+
+
+
+
+
+  /* footer color and height to round out the website Tadiwa */
+  footer {
+    background-color: #191919;
+    color: white;
+    padding: 15px;
+    height: 700px;
+  }
+
+/*postions the white text and and icons underneth dylans icon Tadiwa*/
+#white1{
+  position: absolute;
+  top: 1800px;
+  left: 485px;
+}
+#w1{
+  position: absolute;
+  top: 1825px;
+  left: 445px;
+}
+#white2{
+  position: absolute;
+  top: 1850px;
+  left: 485px;
+}
+#w2{
+  position: absolute;
+  top: 1875px;
+  left: 460px;
+}
+/*postions the white text and and icons underneth pauls icon Tadiwa*/
+#white3{
+  position: absolute;
+  top: 1800px;
+  right: 525px;
+}
+#w3{
+  position: absolute;
+  top: 1825px;
+  right: 485px;
+}
+#white4{
+  position: absolute;
+  top: 1850px;
+  right:520px;
+}
+#w4{
+  position: absolute;
+  top: 1875px;
+  right: 497px;
+}
+
+
+
+
+  /* Targets the h5 span for positioning and color modification Tadiwa */
+h5 span{
+  position: absolute;
+  top: 1315px;
+  left: 850px;
+  font-size: 35px;
+  font-weight: 700;
+  color: white;
+}
+
+  /*  positioning of the avatar of tadiwa in the footer Tadiwa */
+.large1{
+  position: absolute;
+  top: 1355px;
+  left: 850px;
+
+}
+  /* the text underneth the above avatar Tadiwa */
+.p6{
+  color: #FF8431;
+  position: absolute;
+  top: 1570px;
+  left: 830px;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+  /* avatar of dylan Tadiwa */
+.mid2{
+  position: absolute;
+  top: 1550px;
+  left: 400px;
+}
+/* the text underneth the above avatar Tadiwa */
+.p7{
+  position: absolute;
+  top: 1735px;
+  left: 420px;
+  font-size: 35px;
+  color: #FF8431;
+}
+/* avatar of paul Tadiwa */
+.mid1{
+  position: absolute;
+  top: 1550px;
+  right: 460px;
+}
+/* the text underneth the above avatar Tadiwa */
+.p8{
+  position: absolute;
+  top: 1735px;
+  right: 460px;
+  font-size: 35px;
+  color: #FF8431;
+}
+
+
+  /* On small screens, set height to 'auto' for sidenav and grid Tadiwa*/
+  @media screen and (max-width: 767px) {
+    .sidenav {
+      height: auto;
+      padding: 15px;
+    }
+    .row.content {height:auto;}
+  }
+
+/* Link to Contact us page in a box in the footer section Tadiwa */
+  .some{
+    border-radius: 5px;
+    position: relative;
+    right: 600px;
+    background-color:#FFAAD5;
+    color: #191919;
+    text-align:center;
+    margin: auto;
+    font-size: 15px;
+    box-sizing: border-box;
+   width: 200px;
+   height: 40px;
+   padding: 10px;
+  }
+  #grey1{
+      color: #191919;
+  }
+  /* color and positioning of envelope icon in the footer Tadiwa */
+  #pink1{
+    position: relative;
+    right: 600px;
+    color: #FFAAD5;
+  }
+  /* the text of the help website underneth the envelope icon Tadiwa */
+  #p1{
+    position: relative;
+    right: 600px;
+  }
+    /* color and positioning of phone icon in the footer Tadiwa */
+  #pink2{
+    position: relative;
+    right: 600px;
+    color: #FFAAD5;
+  }
+    /* the binarey code numbers for the telephone underneth the phone icon Tadiwa */
+  #p2{
+    position: relative;
+    right: 600px;
+  }
+    /* positioning of the content within the div tag with the class name contactinfo Tadiwa */
+  .contactinfo{
+      position: relative;
+      top: 56px;
+      right: 150px;
+  }
+    /* The logo positioning in the footer section Tadiwa */
+#img2{
+  position: relative;
+  left: 700px;
+  bottom: 120px;
+}
+/*positioning of follow us links of the home page Tadiwa*/
+#followus1{
+  position: absolute;
+  top: 1910px;
+  right: 886px;
+}
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*Donate Page Section Tadiwa  Mkwenje */
+
+
+/*Header of the My Details section on donate page Tadiwa*/
+.dP1h{
+  background-color: #FF8431;
+  height: 35px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 800;
+}
+/*styles and positioning of full body of the My Details box on donate page Tadiwa*/
+.dP1{
+    border: solid 5px #FF8431;
+  border-radius: 5px;
+  position:  relative;
+  background-color: white;
+  text-align: left;
+  top: 10px;
+  left: 350px;
+  box-sizing: border-box;
+ width: 460px;
+ height: 350px;
+}
+
+/*positioning of envelope icon in the My Details box on donate page Tadiwa*/
+#ei{
+  position: absolute;
+  left: 5px;
+  top: 55px;
+}
+/*positioning of the email form in the My Details box on donate page Tadiwa*/
+#email{
+  height: 35px;
+  position: absolute;
+  left: 40px;
+  width: 300px;
+top: 50px;
+}
+/*positioning of person icon in the My Details box on donate page Tadiwa*/
+#ni{
+  position: absolute;
+  left: 5px;
+  top: 105px;
+}
+/*positioning of name form in the My Details box on donate page Tadiwa*/
+#uname{
+  height: 35px;
+  position: absolute;
+  left: 40px;
+  width: 365px;
+top: 100px;
+}
+/*positioning of location icon in the My Details box on donate page Tadiwa*/
+#ai{
+  font-size: 25px;
+  position: absolute;
+  left: 8px;
+  top: 166px;
+}
+/*positioning of address form in the My Details box on donate page Tadiwa*/
+#add{
+  height: 35px;
+  position: absolute;
+  left: 40px;
+  width: 407px;
+top: 160px;
+}
+/*positioning of submit button in the My Details box on donate page Tadiwa*/
+#submit{
+  background-color: white;
+  border: solid 1px #191919;
+  color:#191919;
+  position: absolute;
+  top: 280px;
+  left: 172px;
+  width: 100px;
+  font-size: 20px;
+  font-weight: 900;
+}
+/*Header of the Payment Details section on donate page Tadiwa*/
+.dP3h{
+  background-color: #FF8431;
+  height: 35px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 800;
+}
+/*styles and positioning of full body of the Payment Details box on donate page Tadiwa*/
+.dP3{
+  border: solid 5px #FF8431;
+  border-radius: 5px;
+  position: relative;
+  background-color: white;
+  text-align: left;
+  left:700px;
+bottom: 42px;
+  box-sizing: border-box;
+ width: 450px;
+ height: 780px;
+}
+/*card icon and make Payment section in Payment Details box on donate page Tadiwa*/
+#card{
+  color:  #FF8431;
+}
+/*card icon beside card no. form in Payment Details box on donate page Tadiwa*/
+#card1{
+  position: absolute;
+  color: grey;
+  top: 202px;
+  left: 49px;
+}
+/*card no. form in Payment Details box on donate page Tadiwa*/
+.card1{
+  position: absolute;
+  left: 105px;
+}
+/*Month and Year section in Payment Details box on donate page Tadiwa*/
+.MYD{
+  position: absolute;
+  left: 48px;
+}
+/*card Verfication value section in Payment Details box on donate page Tadiwa*/
+.CVV{
+  position: absolute;
+  right: 40px;
+  width: 65px;
+  text-align: center;
+}
+/*donate link in Payment Details box on donate page Tadiwa*/
+#Dpd{
+  position: absolute;
+  box-sizing: border-box;
+  background-color: #FF8431;
+  border-radius: 5px;
+  border: solid 1px  #FF8431;
+  width: 400px;
+  left: 20px;
+
+}
+/*the color of donate to black Payment Details box on donate page Tadiwa*/
+#Dpd a{
+  color: black;
+}
+/*background image for the whole donate page Tadiwa*/
+#dbI3{
+  background-image: url(https://images.pexels.com/photos/6994982/pexels-photo-6994982.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-repeat: no-repeat;
+
+}
+
+/*positioning and color of footer on donate page Tadiwa*/
+#footerD{
+right: 1060px;
+position: relative;
+ top: 845px;
+  width: 1919px;
+  color: #FFAAD5;
+height: 76px;
+}
+/* text size and blodness in the footer on donate page Tadiwa*/
+#df1{
+  font-size: 40px;
+  font-weight: 700;
+
+}
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/*About Us Section Paul */
+
+/*Slightly bigger text above paragraph */
+#about1{
+
+	color: black;
+    font-size: 25px;
+    font-weight: 600;
+
+}
+/* Slighly smaller text below paragraph 'heading' - it is written in a <p> tag Paul*/
+#about2{
+
+	color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+.row {
+	color: orange;
+}
+/*About Us Footer Tadiwa/Paul*/
+
+/*FOUNDERS above Tadiwa Avatar Tadiwa/Paul */
+.span1about{
+  position: absolute;
+  top: 2890px;
+  left: 850px;
+  font-size: 35px;
+  font-weight: 700;
+  color: white;
+}
+
+/* Tadiwa Avatar Tadiwa/Paul */
+.large1about{
+  position: absolute;
+  top: 2930px;
+  left: 850px;
+}
+
+  /* the text underneth the above avatar Tadiwa/Paul */
+.p6about{
+  color: #FF8431;
+  position: absolute;
+  top: 3130px;
+  left: 830px;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+  /* avatar of dylan Tadiwa/Paul */
+.mid2about{
+  position: absolute;
+  top: 3130px;
+  left: 380px;
+}
+
+/* the text underneth the above avatar Tadiwa/Paul */
+.p7about{
+  position: absolute;
+  top: 3300px;
+  left: 400px;
+  font-size: 35px;
+  color: #FF8431;
+}
+
+/* avatar of paul Tadiwa/Paul */
+.mid1about{
+  position: absolute;
+  top: 3130px;
+  right: 460px;
+}
+
+/* the text underneth the above avatar Tadiwa/Paul */
+.p8about{
+  position: absolute;
+  top: 3300px;
+  right: 460px;
+  font-size: 35px;
+  color: #FF8431;
+}
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/* Game Page CSS Tadiwa Mkwenje*/
+
+/* Game Page CSS Heading Direction Game Tadiwa */
+#DG{
+  color: #FF8431;
+}
+
+/* CSS for positioning and color of play button Tadiwa*/
+#GamePB{
+  background-color: #191919;
+  border: solid 1px #191919;
+  color:#FFAAD5;
+float: left;
+height: 100px;
+  width: 100px;
+  font-size: 20px;
+  font-weight: 900;
+}
+/* background image of whole page Tadiwa*/
+#Gamebi{
+  background-image: url(https://images.pexels.com/photos/8111328/pexels-photo-8111328.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+}
+/* CSS for font size and color of userInfo after playing Tadiwa*/
+#userInfo{
+  box-sizing: border-box;
+  background-color:#FFAAD5;
+position: absolute;
+top: 500px;
+left: 340px;
+  font-size: 130px;
+  color: #191919;
+}
+/* CSS for font size and color of how the game works Tadiwa*/
+#GameInfo{
+  box-sizing: border-box;
+  background-color: white;
+  font-size: 50px;
+}
+/* CSS positioning and color of footer on game page Tadiwa*/
+#footerG{
+  left: 0px;
+  position: absolute;
+   top: 866px;
+    width: 1890px;
+    color: #FFAAD5;
+  height: 73px;
+  text-align: center;
+}
+/* CSS for font size amd positioning Tadiwa*/
+#Gf1{
+position: absolute;
+margin: 3px;
+font-size: 60px;
+left: 635px;
+}
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*Dylan Earls CSS*/
+#culist{
+float: left;
+padding-left: 500px;
+}
+
+.cuimages{
+	float: right;
+	padding-right: 500px;
+	padding-top: 1px;
+	margin-top: 1px;
+}
